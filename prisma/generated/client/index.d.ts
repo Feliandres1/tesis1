@@ -297,7 +297,7 @@ export namespace Prisma {
   export import Exact = $Public.Exact
 
   /**
-   * Prisma Client JS version: 5.6.0
+   * Prisma Client JS version: 5.8.1
    * Query Engine version: e95e739751f42d8ca026f6b910f5a2dc5adeaeee
    */
   export type PrismaVersion = {
@@ -1658,7 +1658,7 @@ export namespace Prisma {
   type RoleGetPayload<S extends boolean | null | undefined | RoleDefaultArgs> = $Result.GetResult<Prisma.$RolePayload, S>
 
   type RoleCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<RoleFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<RoleFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: RoleCountAggregateInputType | true
     }
 
@@ -2629,7 +2629,7 @@ export namespace Prisma {
   type GymGetPayload<S extends boolean | null | undefined | GymDefaultArgs> = $Result.GetResult<Prisma.$GymPayload, S>
 
   type GymCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<GymFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<GymFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: GymCountAggregateInputType | true
     }
 
@@ -3571,7 +3571,7 @@ export namespace Prisma {
   type PlanGetPayload<S extends boolean | null | undefined | PlanDefaultArgs> = $Result.GetResult<Prisma.$PlanPayload, S>
 
   type PlanCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<PlanFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<PlanFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: PlanCountAggregateInputType | true
     }
 
@@ -4672,7 +4672,7 @@ export namespace Prisma {
   type MemberGetPayload<S extends boolean | null | undefined | MemberDefaultArgs> = $Result.GetResult<Prisma.$MemberPayload, S>
 
   type MemberCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<MemberFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<MemberFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: MemberCountAggregateInputType | true
     }
 
@@ -5701,7 +5701,7 @@ export namespace Prisma {
   type AsistenciaGetPayload<S extends boolean | null | undefined | AsistenciaDefaultArgs> = $Result.GetResult<Prisma.$AsistenciaPayload, S>
 
   type AsistenciaCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<AsistenciaFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<AsistenciaFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: AsistenciaCountAggregateInputType | true
     }
 
@@ -6657,7 +6657,7 @@ export namespace Prisma {
   type PagoGetPayload<S extends boolean | null | undefined | PagoDefaultArgs> = $Result.GetResult<Prisma.$PagoPayload, S>
 
   type PagoCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<PagoFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<PagoFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: PagoCountAggregateInputType | true
     }
 
@@ -7657,7 +7657,7 @@ export namespace Prisma {
   type UsuarioGetPayload<S extends boolean | null | undefined | UsuarioDefaultArgs> = $Result.GetResult<Prisma.$UsuarioPayload, S>
 
   type UsuarioCountArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = 
-    Omit<UsuarioFindManyArgs, 'select' | 'include' | 'distinct' > & {
+    Omit<UsuarioFindManyArgs, 'select' | 'include' | 'distinct'> & {
       select?: UsuarioCountAggregateInputType | true
     }
 
